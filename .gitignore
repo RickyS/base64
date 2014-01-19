@@ -1,0 +1,14 @@
+.~lock.*
+*.out
+*.eml
+*.tmp
+*.went
+*.bad
+*.a
+*.out
+*.tar
+*.tar.xc
+*.tar.gz
+md/
+.Backup/
+*.sublime-workspace
