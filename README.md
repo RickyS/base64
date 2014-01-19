@@ -10,7 +10,7 @@ For example:
       "Zm9vYmFyeQ==" <==> "foobary"          // Base64 <==> Binary, displayed here as %s text.  
 
 To install:   
-       $ cd <Your src directory>  
+       $ cd &lt;Your src directory&gt;  
        $ go get -d github.com/RickyS/base64   
        $ mv base64/decode.go .   
        $ go install -v -x base64  
