@@ -12,12 +12,13 @@ For example:
 To install:   
        $ cd <Your src directory>  
        $ go get -d github.com/RickyS/base64   
-       $ mv base64/decode.go .
+       $ mv base64/decode.go .   
        $ go install -v -x base64  
        $ go run decode.go  
        
      
 
 Testing code is currently in the main program decode.go, which is included.  Be sure to remove the file decode.go from the
-base64 directory.  TODO:  Fix that nuisance.
+base64 directory.  
 
+TODO:  Fix that decode.go nuisance.  Change to a proper test.
