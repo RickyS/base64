@@ -1,0 +1,23 @@
+Go Package to convert base64 to and from 'binary' and ascii-hex-text  
+=======================================================
+
+This was written as an exercise in Go, as it duplicates the existing Go library package to
+do essentially the same thing, encoding/base64.  As a bonus, this package also converts to and from 
+hex-ascii text.  
+
+For example:  
+    "Zm9vYmFyeQ==" <==> "666f6f62617279"   // Base64 <==> Ascii Hex Text  
+    "Zm9vYmFyeQ==" <==> "foobary"          // Base64 <==> Binary, displayed here as %s text.  
+
+To install:   
+       $ go get github.com/RickyS/base64   
+       $ mv decode.go ..  
+       $ cd ..  
+       $ go install -v -x base64  
+       $ go run decode.go  
+       
+     
+
+Testing code is currently in the main program decode.go, which is included.  Be sure to remove the file decode.go from the
+base64 directory.  TODO:  Fix that nuisance.
+
